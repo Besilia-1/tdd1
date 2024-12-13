@@ -2,7 +2,11 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+<<<<<<< HEAD
 use App\Http\Controllers\ChirpController;
+=======
+
+>>>>>>> d8cfa6857abfc0fda17adff471c324b51e52af10
 Route::get('/', function () {
     return view('welcome');
 });
@@ -17,8 +21,11 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+<<<<<<< HEAD
 Route::resource('chirps', ChirpController::class)
 ->only(['index', 'store', 'edit', 'update', 'destroy'])
 ->middleware(['auth', 'verified']);
 
+=======
+>>>>>>> d8cfa6857abfc0fda17adff471c324b51e52af10
 require __DIR__.'/auth.php';
