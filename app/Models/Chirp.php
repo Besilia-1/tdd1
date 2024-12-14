@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+<<<<<<< HEAD
 use App\Events\ChirpCreated;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -23,4 +24,11 @@ class Chirp extends Model
     }
     //
    
+=======
+use Illuminate\Database\Eloquent\Model;
+
+class Chirp extends Model
+{
+    //
+>>>>>>> 6bde659 (Initial commit)
 }

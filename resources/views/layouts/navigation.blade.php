@@ -16,11 +16,14 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <x-nav-link :href="route('chirps.index')" :active="request()->routeIs('chirps.index')">
                      {{ __('Chirps') }}
                     </x-nav-link>
 =======
 >>>>>>> d8cfa6857abfc0fda17adff471c324b51e52af10
+=======
+>>>>>>> 6bde659 (Initial commit)
                 </div>
             </div>
 
@@ -77,11 +80,14 @@
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <x-responsive-nav-link :href="route('chirps.index')" :active="request()->routeIs('chirps.index')">
             {{ __('Chirps') }}
             </x-responsive-nav-link>
 =======
 >>>>>>> d8cfa6857abfc0fda17adff471c324b51e52af10
+=======
+>>>>>>> 6bde659 (Initial commit)
         </div>
 
         <!-- Responsive Settings Options -->
